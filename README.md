@@ -1,6 +1,6 @@
 # 🔐 Password Strength Checker with QR Code Generator
 
-A desktop application built using **C# WinForms** and **Python** that analyzes password strength, provides security recommendations, generates secure passwords, estimates password entropy, and creates QR codes for generated passwords.
+A desktop application built using **C# WinForms** and **Python** that analyzes password strength, provides security recommendations, generates secure passwords and creates QR codes for generated passwords.
 
 ---
 
@@ -24,15 +24,6 @@ A desktop application built using **C# WinForms** and **Python** that analyzes p
 
 ✅ Password Security Suggestions
 
----
-
-### Security Metrics
-
-✅ Password Entropy Calculation
-
-✅ Estimated Crack Time
-
-✅ Security Score Evaluation
 
 ---
 
@@ -109,15 +100,18 @@ Save QR Image
 
 ### Main Application
 
-_Add Screenshot Here_
+<img width="833" height="589" alt="image" src="https://github.com/user-attachments/assets/133d15d4-4726-4718-b6fb-206c6aa859f9" />
+
 
 ### Password Validation
 
-_Add Screenshot Here_
+<img width="835" height="591" alt="image" src="https://github.com/user-attachments/assets/df348bb0-180d-4379-b9cf-2d8aff6f0e17" />
+
 
 ### QR Code Generation
 
-_Add Screenshot Here_
+<img width="837" height="589" alt="image" src="https://github.com/user-attachments/assets/3bb5836c-4b3f-4c74-86cc-1f64cce64301" />
+
 
 ---
 
@@ -166,43 +160,6 @@ Result:
 ```text
 Strong
 ```
-
----
-
-## 📊 Entropy Calculation
-
-Entropy is calculated based on:
-
-- Character Pool Size
-- Password Length
-- Password Complexity
-
-Examples:
-
-| Password | Entropy |
-|-----------|----------|
-| 123456 | Low |
-| Password123 | Medium |
-| Password123! | High |
-| Random 20 Character Password | Very High |
-
----
-
-## 📈 Crack Time Estimation
-
-Estimated attack resistance:
-
-```text
-Instantly
-Minutes
-Hours
-Days
-Months
-Years
-Centuries
-```
-
-Based on calculated entropy values.
 
 ---
 
